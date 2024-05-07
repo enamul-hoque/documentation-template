@@ -106,12 +106,13 @@ a {
 /** Section **/
 .d_section {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 60px;
 }
 
 
 /** Section Title **/
 .d_section--title {
+    margin-bottom: 13px;
     padding-bottom: 12px;
     color: #2c3e50;
     border-bottom: 3px solid #e5e5e5;
