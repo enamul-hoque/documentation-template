@@ -57,7 +57,10 @@ a {
 
 /** Sidebar **/
 .d_sidebar {
-    padding: 23px 15px 0;
+    flex: 0 0 300px;
+    max-width: 300px;
+    width: 300px;
+    padding: 23px 25px 0;
     border-right: 1px solid rgba(0, 0, 0, .07);
 }
 
