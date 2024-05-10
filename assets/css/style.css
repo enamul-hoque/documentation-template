@@ -82,9 +82,16 @@ a {
 }
 .d_sidebar--menu > li > a {
     color: #364149;
+    border-bottom: 1px solid transparent;
+}
+.d_sidebar--menu > li > a:hover {
+    border-color: #364149;
 }
 .d_sidebar--menu > li > a:not(:last-child) {
     font-weight: 700;
+}
+.d_sidebar--menu > li > a:not(:last-child):hover {
+    border-bottom-color: transparent;
 }
 .d_sidebar--menu ul {
     padding-top: 12px;
@@ -95,6 +102,9 @@ a {
 }
 .d_sidebar--menu ul a:hover {
     border-bottom-color: #364149;
+}
+.d_sidebar--menu ul li:before {
+    content: "- ";
 }
 
 
